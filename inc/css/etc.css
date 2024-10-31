@@ -1,0 +1,30 @@
+.oxsn_featured_video {
+	float: left;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	background: #f0f0f0;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.oxsn_featured_video .oxsn_featured_video_video_bg { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
